@@ -20,19 +20,19 @@ A Python program that calculates a restaurant bill based on the dish price, drin
 
 ## 📦 Installation (Local)
 
-### 1️⃣ Clona este repositorio
+### 1️⃣ Clone this repository
 
 ```bash
 git clone https://github.com/tuusuario/restaurant-bill-system.git
 ```
 
-### 2️⃣ Entra en la carpeta del proyecto
+### 2️⃣ Open the project folder
 
 ```bash
 cd restaurant-bill-system
 ```
 
-### 3️⃣ Ejecuta el programa
+### 3️⃣ Run the program
 
 ```bash
 python main.py
@@ -55,21 +55,21 @@ You can download it from the official website:
 The program follows a simple sequence of steps to generate the restaurant bill:
 
 1. **User Input**
-   - The program asks the user to enter:
-     - Dish name
-     - Dish price
-     - Drink name
-     - Drink price
-     - Quantity of orders
+- The program asks the user to enter:
+    - Dish name
+    - Dish price
+    - Drink name
+    - Drink price
+    - Quantity of orders
 
 2. **Calculate Subtotal**
-   - The function `calculate_consumption()` calculates the subtotal using the formula:
+- The function `calculate_consumption()` calculates the subtotal using the formula:
     
     ```python
     subtotal = (dish_price + drink_price) * quantity
     ```
 3. **Apply Tax**
-    - The function `apply_tax()` calculates a **10% tax** on the subtotal:
+- The function `apply_tax()` calculates a **10% tax** on the subtotal:
     
     ```python
     tax = subtotal * 0.10
@@ -77,16 +77,16 @@ The program follows a simple sequence of steps to generate the restaurant bill:
     ```
 
 4. **Generate Invoice**
-    - The function `print_invoice()` prints the restaurant bill showing:
-        - Dish
-        - Drink
-        - Quantity
-        - Subtotal
-        - Tax
-        - Total amount to pay
+- The function `print_invoice()` prints the restaurant bill showing:
+    - Dish
+    - Drink
+    - Quantity
+    - Subtotal
+    - Tax
+    - Total amount to pay
 
 5. **Final Output**
-    - The program displays a formatted invoice with the final amount the customer needs to pay.
+- The program displays a formatted invoice with the final amount the customer needs to pay.
 
 ---
 
