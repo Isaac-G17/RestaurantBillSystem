@@ -23,13 +23,13 @@ A Python program that calculates a restaurant bill based on the dish price, drin
 ### 1️⃣ Clone this repository
 
 ```bash
-git clone https://github.com/tuusuario/restaurant-bill-system.git
+git clone https://github.com/Isaac-G17/RestaurantBillSystem.git
 ```
 
 ### 2️⃣ Open the project folder
 
 ```bash
-cd restaurant-bill-system
+cd RestaurantBillSystem
 ```
 
 ### 3️⃣ Run the program
