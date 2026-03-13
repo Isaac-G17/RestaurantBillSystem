@@ -35,7 +35,7 @@ cd restaurant-bill-system
 ### 3️⃣ Run the program
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ---
